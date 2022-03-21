@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  background-color: lightcoral;
+  justify-content: flex-end;
+}
+
+.header > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,157 @@
+.fc {
+  display: flex;
+  background-color: #586dcc;
+  justify-content: flex-end;
+}
+
+.fc__menu {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.fc__logo {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.fc2 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-evenly;
+}
+
+.fc2__img {
+  width: 40%;
+  align-self: flex-end;
+  padding: 20px;
+}
+
+.fc2__para {
+  align-self: flex-start;
+  padding: 30px;
+  width: 40%;
+}
+
+.fc3 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.fc3__div {
+  border: solid;
+  border-color: lightslategrey;
+  margin: 5px;
+  padding: 20px;
+  width: 33%;
+}
+
+.ac {
+  display: flex;
+  background-color: #586dcc;
+  justify-content: flex start;
+  justify-content: space-evenly;
+}
+
+.fc4 {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.fc4__div {
+  display: flex;
+  flex-direction: row;
+}
+
+.fc4__para {
+  padding: 30px;
+  padding-left: 30px;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.fc4__img {
+  width: 30%;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.my-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: centre;
+  background-color: #586dcc;
+  color: #fff;
+  border-right: 5px #080808 solid;
+  border-left: 5px black solid;
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  padding-right: 50 px;
+  width: 33%;
+}
+
+.my-form > div > input {
+  width: 200px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+  width: 200px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input {
+  padding: 8px;
+  width: 50%;
+}
+
+.button {
+  border-color: black;
+  color: gray;
+  padding: 5px;
+}
+
+.blog {
+  animation-name: onClick;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+
+@keyframes onClick {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.blog-2 {
+  animation: col 2s linear infinite;
+}
+@keyframes col {
+  0%, 50% {
+    fill: darkblue;
+  }
+  70% {
+    fill: black;
+  }
+  80%, 100% {
+    fill: brown;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
